@@ -16,6 +16,7 @@ export default function MainImg() {
         width={1440}
         height={898}
         alt="Picture of the author"
+        loading="lazy"
       />
       {size.width > 1150 ? <div className={styles.container}>
         <p className={styles.text}>Доставка материалов<br/> для ландшафтного<br/> дизайна.</p>
