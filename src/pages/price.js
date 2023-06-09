@@ -1,5 +1,11 @@
+import NavigationBlock from "@/components/NavigationBlock";
+import {navLinksPrice} from "@/vendor/constants";
+
 export default function Price() {
   return (
-    <div style={{height: '500px'}}/>
+    <>
+      <NavigationBlock links={navLinksPrice}/>
+      <div style={{height: '400px'}}></div>
+    </>
   )
 }

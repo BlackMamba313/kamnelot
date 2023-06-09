@@ -6,16 +6,12 @@
     background: #766C60;
 }
 
-.wrapper :nth-of-type(3){
-    margin-right: 15%;
-}
 
 .columnInfo {
     margin-right: 15%;
 }
 
 .column {
-    min-width: 240px;
     margin-right: 8%;
 }
 
@@ -87,6 +83,7 @@
         height: 580px;
     }
 
+
     .socialButtons {
         margin: 40px 0 85px 0;
         width: 174px;
@@ -107,5 +104,11 @@
         font-size: 18px;
         line-height: 25px;
         padding-left: 16px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .column {
+        margin-right: 1%;
     }
 }

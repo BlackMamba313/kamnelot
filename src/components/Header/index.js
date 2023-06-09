@@ -30,6 +30,7 @@ export default function Header() {
           <a href={`${url}`} target="_self" className={styles.navLink}>Главная</a>
           <a href={`${url}catalog`} target="_self" className={styles.navLink}>Каталог</a>
           <a href={`${url}delivery`} target="_self" className={styles.navLink}>Доставка</a>
+          <a href={`${url}price`} target="_self" className={styles.navLink}>Прайс</a>
           <a href={`${url}articles`} target="_self" className={styles.navLink}>Статьи</a>
           <a href={`${url}contacts`} target="_self" className={styles.navLink}>Контакты</a>
         </nav>

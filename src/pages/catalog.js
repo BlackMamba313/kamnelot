@@ -1,8 +1,12 @@
-
+import NavigationBlock from "@/components/NavigationBlock";
+import {navLinksCatalog} from "@/vendor/constants";
 
 
 export default function Catalog() {
   return (
-    <div style={{height: '500px'}}/>
+    <>
+      <NavigationBlock links={navLinksCatalog}/>
+      <div style={{height: '400px'}}></div>
+    </>
   )
 }

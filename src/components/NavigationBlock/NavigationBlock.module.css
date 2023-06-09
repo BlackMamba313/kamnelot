@@ -1,0 +1,27 @@
+.wrapper {
+    margin-top: 158px;
+    background-color: #766C60;
+    height: 112px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 112px;
+}
+
+.divider {
+    margin: 2px 12px 0;
+    height: 15px;
+    width: 15px;
+    background: #FBB24A;
+}
+
+.link {
+    font-family: 'Raleway', serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+

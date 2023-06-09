@@ -1,0 +1,44 @@
+.wrapper {
+    margin: 60px 112px;
+    display: flex;
+    align-items: center;
+}
+
+.owner {
+    width: 495px;
+    height: 593px;
+    margin-right: 66px;
+}
+
+.text {
+    width: 641px;
+    font-family: 'Raleway', serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+}
+
+@media (max-width: 1150px) {
+
+    .wrapper {
+        margin: 163px 20px 0 20px;
+        flex-direction: column;
+    }
+
+    .owner {
+        width: 100%;
+        margin: 0 auto 30px;
+        height: 100%;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+    }
+
+}
+
+

@@ -5,6 +5,7 @@ import Whatsapp from "@/images/whatsapp";
 import ButtonCall from "@/images/ButtonCall";
 import ButtonMail from "@/images/ButtonMail";
 import useWindowSize from "@/vendor/useWindowSize";
+import {url} from "@/vendor/constants";
 
 
 export default function Footer() {
@@ -54,11 +55,11 @@ export default function Footer() {
         <>
           <div className={styles.column}>
             <nav className={styles.navLinks}>
-              <a className={styles.navLink}>Главная</a>
-              <a className={styles.navLink}>Каталог</a>
-              <a className={styles.navLink}>Доставка</a>
-              <a className={styles.navLink}>Статьи</a>
-              <a className={styles.navLink}>Контакты</a>
+              <a target="_self" href={url} className={styles.navLink}>Главная</a>
+              <a target="_self" href={url+'catalog'} className={styles.navLink}>Каталог</a>
+              <a target="_self" href={url+'delivery'} className={styles.navLink}>Доставка</a>
+              <a target="_self" href={url+'articles'} className={styles.navLink}>Статьи</a>
+              <a target="_self" href={url+'contacts'} className={styles.navLink}>Контакты</a>
             </nav>
             <div className={styles.textLink}>
               Все права защищены, 2023
