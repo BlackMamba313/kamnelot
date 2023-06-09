@@ -1,0 +1,51 @@
+.wrapper {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 13%;
+    left: 8%;
+}
+
+.text {
+    font-family: 'Prosto One', sans-serif;
+    font-size: 48px;
+    line-height: 62px;
+    color: #333333;
+    cursor: default;
+    margin-bottom: 40px;
+}
+
+.roundBtn {
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #FBB24A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Raleway', serif;
+}
+
+@media (max-width: 1150px) {
+    .wrapper {
+        top: 129px
+    }
+
+    .text {
+        padding: 14px 20px 16px 20px;
+        font-size: 24px;
+        line-height: 30px;
+        background-color: #FFFFFF;
+        margin-bottom: 0;
+    }
+}
+
+
