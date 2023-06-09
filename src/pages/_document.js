@@ -1,8 +1,10 @@
 import {Html, Head, Main, NextScript} from 'next/document'
 
+
 export default function Document() {
   return (<Html lang="ru">
       <Head>
+        {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
         <title>КАМНЕЛОТ</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
