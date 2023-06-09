@@ -91,6 +91,7 @@
 
     .buttonContainer {
         min-height: 321px;
+        width: 100%;
     }
 
     .title {
