@@ -1,6 +1,6 @@
 import ButtonText from "@/components/ButtonText";
 import styles from './OurAssortment.module.css'
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {stones} from "@/components/mainPage/OurAssortment/constants";
 import Image from "next/image";
 import useWindowSize from "@/vendor/useWindowSize";
@@ -8,8 +8,13 @@ import Chevron from "@/images/Chevron";
 
 export default function OurAssortment() {
   const size = useWindowSize();
-  const [currentStones, setCurrentStones] = useState( size.width > 1150?stones[0]:null)
+  const [currentStones, setCurrentStones] = useState( null)
 
+
+  useEffect(()=>{
+    size.width > 1150 &&
+      setCurrentStones(stones[0])
+  },[size])
 
   return (
     <div className={styles.container}>
@@ -22,8 +27,8 @@ export default function OurAssortment() {
               <div
                    className={`${styles.button} ${currentStones?.name === stone.name ? styles.selected : ''}`}>{stone.name}
               </div>
-              {size.width < 1151 &&
-                currentStones?.name === stone.name? <Chevron rewers={true}/>: <Chevron/>
+              {size.width < 1151 && (
+                currentStones?.name === stone.name? <Chevron rewers={true}/>: <Chevron/>)
                 }
             </div>
               {size.width < 1151 &&
@@ -51,13 +56,13 @@ export default function OurAssortment() {
         {size.width > 1150 &&
           <div className={styles.infoContainer}>
             <Image
-              src={currentStones.img}
+              src={currentStones?.img}
               layout="responsive"
               width={662}
               height={416}
               alt="Stone"
             />
-            <p className={styles.text}>{currentStones.descriptions}</p>
+            <p className={styles.text}>{currentStones?.descriptions}</p>
             <ButtonText text='Подробнее'/>
           </div>}
       </div>

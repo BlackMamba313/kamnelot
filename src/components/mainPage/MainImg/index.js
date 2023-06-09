@@ -11,7 +11,7 @@ export default function MainImg() {
     <div className={styles.wrapper}>
       {size.width < 1151 &&<p className={styles.text}>Доставка материалов<br/> для ландшафтного<br/> дизайна.</p>}
       <Image
-        src="/Banner.png"
+        src="/mainPage/Banner.png"
         layout="responsive"
         width={1440}
         height={898}
