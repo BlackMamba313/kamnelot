@@ -13,7 +13,7 @@ export default function OurTarget() {
       <div className={styles.flexWrapper}>
         <Image
           className={styles.img}
-          src="/stone.png"
+          src="/mainPage/stone.png"
           layout="responsive"
           width={430}
           height={385}
