@@ -1,4 +1,6 @@
-export const url = 'https://kamnelot.vercel.app/'
+
+
+export const url = process.env.NEXT_PUBLIC_BASE_URL
 
 export const navLinksContacts = [
   {
