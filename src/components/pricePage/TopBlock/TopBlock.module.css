@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin-left: 112px;
+    margin-bottom: 100px;
+}
+
+.title {
+    margin: 50px 0 32px;
+    font-family: 'Prosto One', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #333333;
+}
+
+.text {
+    margin-bottom: 32px;
+    font-family: 'Raleway', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+}
+
+@media (max-width: 1150px) {
+    .wrapper {
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        margin: 143px 0 24px;
+        font-size: 20px;
+        line-height: 25px;
+        color: #333333;
+    }
+
+    .text {
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+}
+
+
+
