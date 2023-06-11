@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1110px;
+    margin-left: 112px;
+}
+
+.title {
+    margin-bottom: 32px;
+    font-family: 'Prosto One', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.text {
+    margin-bottom: 50px;
+    font-family: 'Raleway', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+}
+
+@media (max-width: 1150px) {
+    .wrapper {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .title {
+        margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .text {
+        margin-bottom: 41px;
+        font-size: 16px;
+    }
+}
+
+
+
