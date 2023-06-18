@@ -1,11 +1,9 @@
 export const riversGalka = [
   {
     name: 'Галька речная. Желтоватый оттенок.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/riversGalka/stone1.png',
-        height: '196',
       }
     ],
     price: [
@@ -29,19 +27,15 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная. Серо-синий цвет.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/riversGalka/stone2.png',
-        height: '91',
       },
       {
         link: '/pricePage/riversGalka/stone3.png',
-        height: '124',
       },
       {
         link: '/pricePage/riversGalka/stone4.png',
-        height: '118',
       },
     ],
     price: [
@@ -81,11 +75,9 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная, отборная. Темно-синий цвет.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/riversGalka/stone5.png',
-        height: '196',
       }
     ],
     price: [
@@ -109,11 +101,9 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная, отборная. Белая в крапинку.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/riversGalka/stone6.png',
-        height: '196',
       }
     ],
     price: [
@@ -137,15 +127,12 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная. Плоская. «Блинчик».',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/riversGalka/stone7.png',
-        height: '147',
       },
       {
         link: '/pricePage/riversGalka/stone8.png',
-        height: '153',
       }
     ],
     price: [
@@ -173,15 +160,12 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная. Плоский «Блинчик». Белый цвет с вкраплениями.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/riversGalka/stone9.png',
-        height: '147',
       },
       {
         link: '/pricePage/riversGalka/stone10.png',
-        height: '153',
       }
     ],
     price: [
@@ -209,15 +193,12 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная. Плоский «Блинчик». Темно-синий цвет.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/riversGalka/stone11.png',
-        height: '147',
       },
       {
         link: '/pricePage/riversGalka/stone12.png',
-        height: '153',
       }
     ],
     price: [
@@ -245,11 +226,9 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная, мраморная. Розовый цвет.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/riversGalka/stone13.png',
-        height: '196',
       }
     ],
     price: [
@@ -269,11 +248,9 @@ export const riversGalka = [
   },
   {
     name: 'Галька речная, кварцевая. мозговик.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/riversGalka/stone14.png',
-        height: '196',
       }
     ],
     price: [
@@ -293,11 +270,9 @@ export const riversGalka = [
   },
   {
     name: 'Галька песчанника. Шафрановый цвет (светло-желтый).',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/riversGalka/stone15.png',
-        height: '196',
       }
     ],
     price: [
@@ -320,15 +295,12 @@ export const riversGalka = [
 export const MorscaiGalka = [
   {
     name: 'Галька морская Каспийская.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/MorscaiGalka/stone1.png',
-        height: '147',
       },
       {
         link: '/pricePage/MorscaiGalka/stone2.png',
-        height: '153',
       }
     ],
     price: [
@@ -356,15 +328,12 @@ export const MorscaiGalka = [
   },
   {
     name: 'Галька морская Черноморская.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/MorscaiGalka/stone3.png',
-        height: '147',
       },
       {
         link: '/pricePage/MorscaiGalka/stone4.png',
-        height: '153',
       }
     ],
     price: [
@@ -392,11 +361,9 @@ export const MorscaiGalka = [
   },
   {
     name: 'Ракушка Каспийская',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/MorscaiGalka/stone1.png',
-        height: '196',
       }
     ],
     price: [
@@ -415,15 +382,12 @@ export const MorscaiGalka = [
 export const ValunsKavkas = [
   {
     name: 'Валун речной, обычный.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/ValunsKavkas/stone1.png',
-        height: '147',
       },
       {
         link: '/pricePage/ValunsKavkas/stone2.png',
-        height: '153',
       }
     ],
     price: [
@@ -448,15 +412,12 @@ export const ValunsKavkas = [
   {
     name: 'Валун речной, отборный.\n' +
       'Белый гранит в крапинку.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/ValunsKavkas/stone3.png',
-        height: '147',
       },
       {
         link: '/pricePage/ValunsKavkas/stone4.png',
-        height: '153',
       }
     ],
     price: [
@@ -480,15 +441,12 @@ export const ValunsKavkas = [
   },
   {
     name: 'Валун речной, отборный. Серо-синий гранит.',
-    background: '#9D8A7C',
     images: [
       {
         link: '/pricePage/ValunsKavkas/stone5.png',
-        height: '147',
       },
       {
         link: '/pricePage/ValunsKavkas/stone6.png',
-        height: '153',
       }
     ],
     price: [
@@ -512,15 +470,12 @@ export const ValunsKavkas = [
   },
   {
     name: 'Валун речной, ландшафтный, разноцветный.',
-    background: '#FFE2B8',
     images: [
       {
         link: '/pricePage/ValunsKavkas/stone7.png',
-        height: '147',
       },
       {
         link: '/pricePage/ValunsKavkas/stone8.png',
-        height: '153',
       }
     ],
     price: [
@@ -543,3 +498,4 @@ export const ValunsKavkas = [
     ]
   }
 ]
+
