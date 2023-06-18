@@ -9,7 +9,7 @@ export default function StoneForm( ) {
   const [arrayName, setArrayName] = useState("");
 
   const handleAddImage = () => {
-    setImages([...images, { link: "", height: "" }]);
+    setImages([...images, { link: "" }]);
   };
 
   const handleImageChange = (index, field, value) => {
